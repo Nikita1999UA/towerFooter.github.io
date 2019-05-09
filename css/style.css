@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+}
+
+.container {
+  padding: 0 80px;
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #161F30;
+  height: auto;
+}
+
+footer .footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+}
+
+footer .footer__block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+footer .footer__description {
+  max-width: 460px;
+  width: 100%;
+  margin-top: 25px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+footer .footer__block.two {
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 auto;
+          flex: 5 1 auto;
+}
+
+footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__item_title {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+footer .footer__nav_link {
+  list-style: none;
+  margin-top: 25px;
+}
+
+footer .footer__nav_link a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+footer .footer__info {
+  height: 90px;
+  margin-top: 80px;
+  width: 100%;
+  background-color: #5C7087;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 80px 0 0;
+}
+
+footer .footer__social {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 1px solid #fff;
+}
+
+footer .footer__social_link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+footer .footer__social_link i {
+  color: #5a6f86;
+  font-size: 18px;
+}
+
+footer .footer__social-container {
+  max-width: 180px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__phone {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid #fff;
+}
+
+footer .footer__mail {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer__phone_number {
+  margin-left: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+footer .footer__mail_text {
+  margin-left: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+footer .footer__copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__copy a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

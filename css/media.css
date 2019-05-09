@@ -1,0 +1,87 @@
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 15px 0 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__block.two {
+    margin-top: 25px;
+  }
+  .footer__info {
+    padding: 0 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    height: auto !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .footer__social {
+    margin-top: 25px;
+    border-right: none !important;
+  }
+  .footer__social_link {
+    margin-right: 5px;
+  }
+  .footer__phone {
+    margin-top: 25px;
+    border-right: none !important;
+  }
+  .footer__mail {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100% !important;
+  }
+  .footer__item.one {
+    text-align: left;
+    width: 92%;
+    margin-top: 15px;
+  }
+  .footer__item.two {
+    text-align: left;
+    width: 92%;
+    margin-top: 15px;
+  }
+  .footer__item.three {
+    text-align: left;
+    width: 92%;
+    margin-top: 15px;
+  }
+  .footer__copy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
