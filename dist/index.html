@@ -5,61 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Footer TowerIQ</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Condensed:700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/media.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous" async></script>
+    <script
+    src="https://code.jquery.com/jquery-migrate-3.0.1.js"
+    integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4="
+    crossorigin="anonymous" async></script>
+    <script src="src/js/wow.min.js" defer></script>
+    <script src="src/js/main.js" defer></script>
 </head>
 <body>
     <footer class="footer">
         <div class="container">
             <div class="footer__main">
                 <div class="footer__block">
-                    <div class="footer__logo">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 53" width="200" height="53">
-                            <defs>
-                                <image width="200" height="53" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAA1CAMAAAAzilRrAAAAAXNSR0IB2cksfwAAAv1QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////htTccAAAAP90Uk5TAAJbv/X//eCRGw+59E4B+jlZIyDN0Ly31TV05WyQJAg8aICGfF8tMPjWu7Cv8cBAtPBpNqXmihzrA28yBCVhcBSn96o3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"/>
-                            </defs>
-                            <style>
-                                tspan { white-space:pre }
-                            </style>
-                            <g id="Footer  copy">
-                                <use id="Векторный смарт-объект copy copy" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
-                            </g>
-                        </svg>
-                    </div>
+                    <div class="footer__logo" aria-label="TowerIQ"></div>
                     <div class="footer__description wow fadeInLeft" data-wow-delay="350ms">
                         <p class="footer__description_text">TowerIQ, Inc. works towards a safer future by manufacturing reliable, affordable, and easyto-install wireless infrastructure for buildings. A multinational corporation based out of New York City, the company’s Tactical Series line of products operates at the nexus of two-way radio and fire-alarm systems, speaking the language of both. Our Tactical Series and UniDAS platforms provide required emergency responder communications. Using simple solutions to complex problems, TowerIQ provides "Signal Where it Matters."</p>
                     </div>
                 </div>
-                <div class="footer__block two">
+                <div class="footer__block--two">
                     <div class="footer__container">
-                        <div class="footer__item one">
+                        <div class="footer__item">
                             <a class="footer__item_title" href="#"> Solutions</a>
                             <ul class="footer__nav">
-                                <li class="footer__nav_link"> <a href="">Smart Building First Responder <br> Communications</a></li>
-                                <li class="footer__nav_link"> <a href="">Smart Building IoT</a></li>
-                                <li class="footer__nav_link"> <a href="">Smart Building CitylinQ</a></li>
-                                <li class="footer__nav_link"> <a href="">FDNY ARCS</a></li>
+                                <li class="footer__nav_link"> <a href="#">Smart Building First Responder <p> Communications</p></a></li>
+                                <li class="footer__nav_link"> <a href="#">Smart Building IoT</a></li>
+                                <li class="footer__nav_link"> <a href="#">Smart Building CitylinQ</a></li>
+                                <li class="footer__nav_link"> <a href="#">FDNY ARCS</a></li>
                             </ul>
                         </div>
-                        <div class="footer__item two">
+                        <div class="footer__item">
                             <a class="footer__item_title" href="#"> Products</a>
                             <ul class="footer__nav">
-                                <li class="footer__nav_link"><a href="">Tactical Series</a></li>
-                                <li class="footer__nav_link"><a href="">TowerlinQ</a></li>
-                                <li class="footer__nav_link"><a href="">CitylinQ</a></li>
-                                <li class="footer__nav_link"><a href="">TIQ.Cloud</a></li>
+                                <li class="footer__nav_link"><a href="#">Tactical Series</a></li>
+                                <li class="footer__nav_link"><a href="#">TowerlinQ</a></li>
+                                <li class="footer__nav_link"><a href="#">CitylinQ</a></li>
+                                <li class="footer__nav_link"><a href="#">TIQ.Cloud</a></li>
                             </ul>
                         </div>
-                        <div class="footer__item three">
+                        <div class="footer__item">
                             <a class="footer__item_title" href="#"> About us</a>
                             <ul class="footer__nav">
-                                <li class="footer__nav_link"><a href="">Company</a></li>
-                                <li class="footer__nav_link"><a href="">History</a></li>
-                                <li class="footer__nav_link"><a href="">Blog</a></li>
-                                <li class="footer__nav_link"><a href="">Our contacts</a></li>
+                                <li class="footer__nav_link"><a href="#">Company</a></li>
+                                <li class="footer__nav_link"><a href="#">History</a></li>
+                                <li class="footer__nav_link"><a href="#">Blog</a></li>
+                                <li class="footer__nav_link"><a href="#">Our contacts</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,32 +76,21 @@
                             </div>
                         </div>
                         <div class="footer__phone wow fadeInUp" data-wow-delay="750ms">
-                            <img class="footer__phone_img" src="img/phone.png" alt="phone">
-                            <a class="footer__phone_number" href="tel:(844) 626-7638 ">(844) 626-7638</a>
+                            <span class="footer__phone_icon"></span>
+                            <a class="footer__phone_number" href="tel:+78446267638">(844) 626-7638</a>
                         </div>
                         <div class="footer__mail wow fadeInUp" data-wow-delay="950ms">
-                            <img class="footer__mail_img" src="img/mail.png" alt="mail">
+                            <span class="footer__mail_icon" ></span>
                             <a class="footer__mail_text" href="mailto:info@toweriq.nyc ">info@toweriq.nyc</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer__copy">
-                <a class="footer__copy_name" href="">Copyright © TowerIQ Inc.</a>
-                <a class="footer__copy_develop" href="">Developed by: FRESHDESIGN</a>
+                <a class="footer__copy_name" href="#">Copyright © TowerIQ Inc.</a>
+                <a class="footer__copy_develop" href="#">Developed by: FRESHDESIGN</a>
             </div>
         </div>
     </footer>
-
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-      <script
-    src="https://code.jquery.com/jquery-migrate-3.0.1.js"
-    integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4="
-    crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
