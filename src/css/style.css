@@ -82,6 +82,7 @@ footer .footer__nav_link {
 
 footer .footer__nav_link a {
   color: #fff;
+  opacity: 0.7;
   text-decoration: none;
   font-family: 'Montserrat';
   font-size: 14px;
@@ -90,7 +91,8 @@ footer .footer__nav_link a {
 }
 
 footer .footer__nav_link a:hover {
-  color: #5C7087;
+  color: #fff;
+  opacity: 1;
 }
 
 footer .footer__info {
@@ -148,7 +150,7 @@ footer .footer__social_link i {
 }
 
 footer .footer__social_link:hover {
-  background-color: #161F30;
+  background-color: #CD853F;
 }
 
 footer .footer__social_link:hover i {
@@ -216,6 +218,7 @@ footer .footer__mail_icon {
 footer .footer__phone_number {
   margin-left: 35px;
   color: #fff;
+  opacity: 0.7;
   text-decoration: none;
   font-family: Montserrat;
   font-style: normal;
@@ -228,12 +231,18 @@ footer .footer__phone_number {
 }
 
 footer .footer__phone_number:hover {
-  color: #161F30;
+  color: #ffffff;
+  opacity: 1;
+}
+
+footer .footer__item {
+  max-width: 220px;
 }
 
 footer .footer__mail_text {
   margin-left: 35px;
   color: #fff;
+  opacity: 0.7;
   text-decoration: none;
   font-family: Montserrat;
   font-style: normal;
@@ -246,7 +255,8 @@ footer .footer__mail_text {
 }
 
 footer .footer__mail_text:hover {
-  color: #161F30;
+  color: #ffffff;
+  opacity: 1;
 }
 
 footer .footer__copy {
